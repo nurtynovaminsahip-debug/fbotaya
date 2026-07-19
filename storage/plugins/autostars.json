@@ -1,0 +1,23 @@
+{
+  "fragment_cookies": "stel_ssid=fe78411c8b5039e394_15377452360201222095; stel_dt=-240; stel_token=517934824291202e3b2c60f0396e9ccd5179349b5179322bbd69cb17f101f83e39d4c; stel_ton_token=RdSHqPeMypT318Eb6eIt-_gt8j4XG9-FekSFsoebYDDOz3tkK9-s4xXdiXnEpGJpZTSayJHebiP9m2jm_30DEDByKzOKOpX_0qMoU2CVxHz4P8zNE0AimDykesWLP3guxEf_k2eNp0oGsVgXybwEo7dSq38MalNw1oaxB-SoHxGS_1veykZTpcHKqO48TwPxWV0SqnOW",
+  "fragment_hash": "3e6be21b32b6465d37",
+  "ton_mnemonic": "grass torch sweet huge pilot true rug effort shield media detect elevator misery above arctic voyage must fold smart ceiling six safe ivory jungle",
+  "ton_api_token": "AHENLQNMSFF6ZQIAAAAPRIVHWYKWHELL6IKCFGZSFIY5G5AGGJXT7JMRXKQASIFO6KWZZNY",
+  "show_sender": false,
+  "show_ad": false,
+  "refund_on_error": true,
+  "loop_interval_sec": 5,
+  "low_balance_threshold": 0.0,
+  "low_balance_notify": true,
+  "review_reply": false,
+  "review_reply_text": "🌟 Спасибо за отзыв!",
+  "messages": {
+    "transaction_completed": "🌟 {buyer}, {amount} звёзд успешно переведены на аккаунт @{username}.",
+    "transaction_failed": "❌ {buyer}, не удалось перевести звёзды.\nПродавец уведомлён и придёт на помощь как только сможет!",
+    "invalid_username": "❌ {buyer}, telegram юзернейм по заказу {order_id} невалиден.\n\nПроверьте правильность и отправьте команду:\n/stars ваш_телеграм_юзернейм",
+    "username_not_found": "❌ {buyer}, не удалось найти Telegram аккаунт с юзернеймом @{username}.\n\nПроверьте правильность и отправьте команду:\n/stars ваш_телеграм_юзернейм",
+    "not_user_username": "❌ {buyer}, telegram тег @{username} принадлежит не пользователю.\nПеревод звёзд каналам/чатам не поддерживается.\n\nУкажите юзернейм пользователя:\n/stars ваш_телеграм_юзернейм",
+    "blocked_by_user": "❌ {buyer}, похоже, вы заблокировали мой Telegram аккаунт, поэтому я не могу перевести звёзды.\n\nРазблокируйте аккаунт и отправьте команду:\n/stars {username}",
+    "failed_to_fetch_username": "❌ {buyer}, не удалось проверить юзернейм @{username} (ошибка на стороне Telegram).\nПродавец уже уведомлён!\n\nПопробуйте позже, отправив команду:\n/stars {username}"
+  }
+}
