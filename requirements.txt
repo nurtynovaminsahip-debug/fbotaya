@@ -9,3 +9,5 @@ lxml>=5.3.0
 bcrypt>=4.2.0
 pysocks>=1.7.1
 pytoniq>=0.1.40
+requests-toolbelt>=1.0.0
+urllib3<2.0
